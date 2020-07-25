@@ -10,16 +10,28 @@ public class newCalc {
 		System.out.print("Please enter the operation");
 		char c=s.next().charAt(0);
 		if(c=='+') {
-			add(a,b);
+			System.out.println(add(a,b));
 		}else if(c=='-') {
-			sub(a,b);
+			System.out.println(sub(a,b));
 		}else if(c=='/') {
-			div(a,b)
+			System.out.println(div(a,b));
 		}else {
-			mult(a,b)
+			System.outprinln(mult(a,b);
 		}
 			
 	
+	}
+	public static double add(double a, double b) {
+		return a+b; 
+	}
+	public static double sub(double a, double b) {
+		return a+b; 
+	}
+	public static double div(double a, double b) {
+		return a/b; 
+	}
+	public static double mult(double a, double b) {
+		return a*b; 
 	}
 	
 	

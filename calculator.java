@@ -6,6 +6,7 @@ public class calculator {
 		Scanner s=new Scanner(System.in);
 		int x =0;
 		String str="";
+		System.out.print("kk");
 		
 	}
 
